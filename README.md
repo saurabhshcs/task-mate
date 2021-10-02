@@ -2,9 +2,9 @@
 This is an application called task-mate. Basically this is application is in React + GraphQL with Next.js
 
 
-Initialized a git repository.
+Initialized a git repository. Click here to clone repository - [task-mate](https://github.com/saurabhshcs/task-mate.git)
 
-Success! Created task-mate at /Users/saurabhshcsibm.com/Desktop/saurabhshcs/lunchNlearn/TS-React/code/task-mate
+Success! 
 Inside that directory, you can run several commands:
 
 - Starts the development server.
