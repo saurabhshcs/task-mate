@@ -21,9 +21,9 @@ Inside that directory, you can run several commands:
     `npx create-next-app --use-npm` (Why I use `--use-npm` because I have `yarn` installed on my system i.e. another build dependencies tool)
   - Above command will show a message as ` What is your project named? … my-app` here you need to give your application name for us this is `task-mate`.
   - Now, we need to install `TypeScript` so need to execute following command according to your node version. I'm using node `v14.17.6`
-    `npm i -D typescript @types/react @types/node@14` and then create a file `tsconfig.json` in root directory i.e. inside `task-mate`
-   ```yaml
-       {
+    `npm i -D typescript @types/react @types/node@14` and then create a file `tsconfig.json` in root directory i.e. inside `task-mate`.
+    ```yaml
+    {
       "compilerOptions": {
         "target": "es5",
         "lib": [
@@ -51,7 +51,9 @@ Inside that directory, you can run several commands:
       "exclude": [
         "node_modules"
       ]
-    }```
-  - [TypeScript](https://www.typescriptlang.org/tsconfig)  
+    } 
+    ```
+   
+  - Please refer [TypeScript -> tsconfig](https://www.typescriptlang.org/tsconfig) for deep-dive.
   
   
